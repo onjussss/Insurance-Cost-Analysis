@@ -1,0 +1,10 @@
+import streamlit as st
+st.set_page_config(page_title="Insurance Analysis", page_icon="🤖")
+st.title("Insurance Cost Analysis")
+st.subheader("M.Ayaan Saiyed")
+st.write("Roll No: A043")
+st.write("Sap ID: 86032400009")
+st.subheader("Ojas Taneja")
+st.write("Roll No: A056")
+st.write("Sap ID: 86032400054")
+st.link_button("Dataset","https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance")
