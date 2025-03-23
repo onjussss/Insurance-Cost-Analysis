@@ -153,7 +153,7 @@ def graph6():
 # ---- Streamlit App ----
 st.set_page_config(page_title="Insurance Analysis", page_icon="📊")
 
-df = pd.read_csv("insurance.csv")
+df = pd.read_csv("insurance_dataset_analysis/insurance.csv")
 
 st.title("📊 Insurance Data Analysis")
 
