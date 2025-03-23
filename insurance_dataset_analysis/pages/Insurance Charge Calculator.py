@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Charge Calculator",page_icon="💰")
 st.title("Insurace Charge Calculator")
-data=pd.read_csv("insurance.csv")
+data=pd.read_csv("insurance_dataset_analysis/insurance.csv")
 
 #categorizing bmi
 bmi_bins = [0, 18.5, 24.9, 29.9, float('inf')]
