@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Charge Calculator",page_icon="💰")
-st.title("Insurnace Charge Calculator")
+st.title("Insurance Charge Calculator")
 data=pd.read_csv("insurance_dataset_analysis/insurance.csv")
 
 #categorizing bmi
